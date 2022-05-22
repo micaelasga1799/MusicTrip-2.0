@@ -111,8 +111,7 @@ main h1 {
 #canzone {padding-bottom: 1.5%;}
 
 .nome {
-	padding-left: 30%  !important;
-	padding-right: 30%  !important;
+
 	font-size: 100% !important; /*perchè non mi considera come contenitore la box-card ?*/
 	color: black;
 } 
