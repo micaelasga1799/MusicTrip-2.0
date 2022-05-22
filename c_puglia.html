@@ -41,13 +41,44 @@
             <li class="breadcrumb-item">Puglia</li>
           </ol>
       </nav>
-      <h1>PUGLIA</h1> 
+      <h1>PUGLIA</h1>
+      <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI--> 
       <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
           <div id="canzone" class="col-sm-4 col-md-2">
             <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
                 <div class="card-body">
-                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=mEVB_QAtgwI&ab_channel=BallatiTuttiQuanti">ballati tutti quanti (lu core meu)<br>Autore: pizzica Salento BTQ</a>
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=mEVB_QAtgwI&ab_channel=BallatiTuttiQuanti">ballati tutti quanti (lu core meu)<br>Autore:<br> pizzica Salento BTQ</a>
             </div>
           </div>  
         </div> 
@@ -55,7 +86,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=F9E8nIKjkYc&ab_channel=MELOMANDANCE">Felicita<br>Autore: Al Bano</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=F9E8nIKjkYc&ab_channel=MELOMANDANCE">Felicita<br>Autore:<br> Al Bano</a>
             </div>
           </div> 
         </div> 
@@ -63,7 +94,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=SmH2ZZy0dUI&ab_channel=CheccoZaloneOfficial">Immigrato<br>Autore: Checco Zalone</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=SmH2ZZy0dUI&ab_channel=CheccoZaloneOfficial">Immigrato<br>Autore:<br> Checco Zalone</a>
             </div>
           </div> 
          </div>
@@ -71,7 +102,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=24EtPwUWxEM&ab_channel=MecnaVEVO">La più bella<br>Autore: Mecna</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=24EtPwUWxEM&ab_channel=MecnaVEVO">La più bella<br>Autore:<br> Mecna</a>
             </div>
           </div> 
          </div>
@@ -79,7 +110,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-jvLm8kZBTM&ab_channel=negramaro">La prima volta<br>Autore: Negramaro</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-jvLm8kZBTM&ab_channel=negramaro">La prima volta<br>Autore:<br> Negramaro</a>
             </div>
           </div> 
          </div>
@@ -87,7 +118,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=LI7mC1ZC-uw&ab_channel=seminaltube">La Puglia al tempo della Pizzica<br>Autore: Apulian Style</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=LI7mC1ZC-uw&ab_channel=seminaltube">La Puglia al tempo della Pizzica<br>Autore:<br> Apulian Style</a>
             </div>
           </div> 
          </div>
@@ -95,7 +126,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=Z_rWECzI2V4&ab_channel=SudSoundSystem-Topic">Le radici ca tieni<br>Autore: Sud Sound System</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=Z_rWECzI2V4&ab_channel=SudSoundSystem-Topic">Le radici ca tieni<br>Autore:<br> Sud Sound System</a>
             </div>
           </div> 
          </div>
@@ -103,7 +134,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=i8qZ2Hif_eM&ab_channel=BoomdabashVEVO">Mambo Salentino<br>Autore: Alessandra Amoroso, Boomdabash</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=i8qZ2Hif_eM&ab_channel=BoomdabashVEVO">Mambo Salentino<br>Autore:<br> Alessandra Amoroso, Boomdabash</a>
             </div>
           </div> 
          </div>
@@ -111,7 +142,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-Khe61uso_o&ab_channel=PriestessOfficialChannel">Maria Antonietta<br>Autore: Priestess</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-Khe61uso_o&ab_channel=PriestessOfficialChannel">Maria Antonietta<br>Autore:<br> Priestess</a>
             </div>
           </div> 
          </div>
@@ -119,7 +150,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=wxbsEQZ7XSQ&ab_channel=buenasuerterecord">Nel blu dipinto di blu (volare)<br>Autore: Domenico Mudugno</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=wxbsEQZ7XSQ&ab_channel=buenasuerterecord">Nel blu dipinto di blu (volare)<br>Autore:<br> Domenico Mudugno</a>
             </div>
           </div> 
          </div>
@@ -127,7 +158,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=y70iaqDYonQ&ab_channel=RAFVEVO">Non è mai un errore<br>Autore: Raf</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=y70iaqDYonQ&ab_channel=RAFVEVO">Non è mai un errore<br>Autore:<br> Raf</a>
             </div>
           </div> 
          </div>
@@ -143,7 +174,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=LSaTbI49U3M&ab_channel=Boomdabash">Portami con te<br>Autore: Boomdabash</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=LSaTbI49U3M&ab_channel=Boomdabash">Portami con te<br>Autore:<br> Boomdabash</a>
             </div>
           </div> 
          </div>
@@ -151,7 +182,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jTmO-scpNII&ab_channel=AdrianoPappalardo-Topic">Ricominciamo<br>Autore: Adriano Pappalardo</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jTmO-scpNII&ab_channel=AdrianoPappalardo-Topic">Ricominciamo<br>Autore:<br> Adriano Pappalardo</a>
             </div>
           </div> 
          </div>
@@ -159,7 +190,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ykGRZ4Li3OU&ab_channel=Gemitaiz%26MadManOfficialChannel">Veleno 7<br>Autore: Madman, Gemitaiz</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ykGRZ4Li3OU&ab_channel=Gemitaiz%26MadManOfficialChannel">Veleno 7<br>Autore:<br> Madman, Gemitaiz</a>
             </div>
           </div> 
          </div>
@@ -167,7 +198,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=EDCHk6JhFzQ&ab_channel=CaparezzaVEVO">Vieni a ballare in Puglia<br>Autore: Caparezza, Al Bano</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=EDCHk6JhFzQ&ab_channel=CaparezzaVEVO">Vieni a ballare in Puglia<br>Autore:<br> Caparezza, Al Bano</a>
             </div>
           </div> 
          </div>

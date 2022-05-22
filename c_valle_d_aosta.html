@@ -41,13 +41,44 @@
             <li class="breadcrumb-item">Valle D'Aosta</li>
           </ol>
       </nav>
-      <h1>VALLE D'AOSTA</h1> 
+      <h1>VALLE D'AOSTA</h1>
+      <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI--> 
       <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
           <div id="canzone" class="col-sm-4 col-md-2">
             <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
                 <div class="card-body">
-                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=OsRZRXUlRzs&ab_channel=TeleSaint-VincentconStefanoCapano">Canto popolare valdostano<br> Autore: Capano Stefano</a></a>
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=OsRZRXUlRzs&ab_channel=TeleSaint-VincentconStefanoCapano">Canto popolare valdostano<br> Autore:<br> Capano Stefano</a></a>
             </div>
           </div>  
         </div> 
@@ -55,7 +86,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=4Vmd1W5ZJco&ab_channel=EmiRecordsItaly">Cercasi aaamore<br> Autore: Dari</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=4Vmd1W5ZJco&ab_channel=EmiRecordsItaly">Cercasi aaamore<br> Autore:<br> Dari</a>
             </div>
           </div> 
         </div> 
@@ -63,7 +94,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=H8PNcG8vPCQ&list=OLAK5uy_lhjZwjVMrXhOWYZK5NblPQdl2oHXmXb48&index=2">Don Giovanni, K. 527: overture<br> Autore: Bruno Praticò</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=H8PNcG8vPCQ&list=OLAK5uy_lhjZwjVMrXhOWYZK5NblPQdl2oHXmXb48&index=2">Don Giovanni, K. 527: overture<br> Autore:<br> Bruno Praticò</a>
             </div>
           </div> 
          </div>
@@ -71,7 +102,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=fUe6-TwwSO8&ab_channel=MusicSolutionsAgency">Ghosts of unconsciousness<br> Autore: Illogicist</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=fUe6-TwwSO8&ab_channel=MusicSolutionsAgency">Ghosts of unconsciousness<br> Autore:<br> Illogicist</a>
             </div>
           </div> 
          </div>
@@ -79,7 +110,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=lQCfni6iUjU&ab_channel=LOrageVEVO">I piedi più belli del mondo<br> Autore: L'Orage</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=lQCfni6iUjU&ab_channel=LOrageVEVO">I piedi più belli del mondo<br> Autore:<br> L'Orage</a>
             </div>
           </div> 
          </div>
@@ -87,7 +118,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=3QlNHc82ON4&ab_channel=losbastardos">Il branco<br> Autore: Losbastardos</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=3QlNHc82ON4&ab_channel=losbastardos">Il branco<br> Autore:<br> Losbastardos</a>
             </div>
           </div> 
          </div>
@@ -103,7 +134,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=E_HhCxd5cEQ&ab_channel=GaetanoLoPresti">J'inventerais<br> Autore: Magui Betemps</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=E_HhCxd5cEQ&ab_channel=GaetanoLoPresti">J'inventerais<br> Autore:<br> Magui Betemps</a>
             </div>
           </div> 
          </div>
@@ -119,7 +150,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=3iKB7uEXsXE&ab_channel=Ciansunier-Topic">Montagnes d'Italie<br> Autore: Ciansunier</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=3iKB7uEXsXE&ab_channel=Ciansunier-Topic">Montagnes d'Italie<br> Autore:<br> Ciansunier</a>
             </div>
           </div> 
          </div>
@@ -127,7 +158,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ejINNpUfxT4&ab_channel=fabriziocarletto">Poesia<br> Autore: Ciansunier</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=ejINNpUfxT4&ab_channel=fabriziocarletto">Poesia<br> Autore:<br> Ciansunier</a>
             </div>
           </div> 
          </div>
@@ -135,7 +166,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=VWNsDvcfpwI&ab_channel=TosoMalemodo">Questi anni<br> Autore: Kina</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=VWNsDvcfpwI&ab_channel=TosoMalemodo">Questi anni<br> Autore:<br> Kina</a>
             </div>
           </div> 
          </div>
@@ -143,7 +174,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-Fw1myCycfw&ab_channel=spavaldo1">Ti ho vista in piazza<br> Autore: Frontiera</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=-Fw1myCycfw&ab_channel=spavaldo1">Ti ho vista in piazza<br> Autore:<br> Frontiera</a>
             </div>
           </div> 
          </div>
@@ -151,7 +182,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=EOWeFuptYfY&ab_channel=CinziaTarditi">Val d'Aosta primo amore<br> Autore: Orchestra "Acquamarina"</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=EOWeFuptYfY&ab_channel=CinziaTarditi">Val d'Aosta primo amore<br> Autore:<br> Orchestra "Acquamarina"</a>
             </div>
           </div> 
          </div>
@@ -159,7 +190,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=u_As1NOsKM4&ab_channel=Ciansunier-Topic">Vecchia balera<br> Autore: Ciansunier</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=u_As1NOsKM4&ab_channel=Ciansunier-Topic">Vecchia balera<br> Autore:<br> Ciansunier</a>
             </div>
           </div> 
          </div>

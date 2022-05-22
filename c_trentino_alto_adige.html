@@ -41,13 +41,44 @@
             <li class="breadcrumb-item">Trentino Alto Adige</li>
           </ol>
       </nav>
-      <h1>TRENTINO ALTO ADIGE</h1> 
+      <h1>TRENTINO ALTO ADIGE</h1>
+      <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI-->
       <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
           <div id="canzone" class="col-sm-4 col-md-2">
             <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
                 <div class="card-body">
-                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=l0ymLHL4vBU&ab_channel=SaifamMusic">Amazonas(the colors of love)<br> Autore: Evo</a></a>
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=l0ymLHL4vBU&ab_channel=SaifamMusic">Amazonas(the colors of love)<br> Autore:<br> Evo</a></a>
             </div>
           </div>  
         </div> 
@@ -55,7 +86,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jErA3NtKpTE&list=OLAK5uy_mSy8Te1w72xyPAJj8bJ4o2_p4YV8ec9gg&ab_channel=Brunorock-Topic">Con gli occhi negli occhi<br> Autore: Brunorock</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jErA3NtKpTE&list=OLAK5uy_mSy8Te1w72xyPAJj8bJ4o2_p4YV8ec9gg&ab_channel=Brunorock-Topic">Con gli occhi negli occhi<br> Autore:<br> Brunorock</a>
             </div>
           </div> 
         </div> 
@@ -63,7 +94,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=5Is3w65nH8s&ab_channel=GreenArrows-Topic">Defeat your land<br> Autore: Green Arrows</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=5Is3w65nH8s&ab_channel=GreenArrows-Topic">Defeat your land<br> Autore:<br> Green Arrows</a>
             </div>
           </div> 
          </div>
@@ -71,7 +102,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=pXanYmon8RQ&ab_channel=Graveworm-Topic">Fear of dark<br> Autore: Graveworm</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=pXanYmon8RQ&ab_channel=Graveworm-Topic">Fear of dark<br> Autore:<br> Graveworm</a>
             </div>
           </div> 
          </div>
@@ -79,7 +110,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=k-hH_7BH9Q0&ab_channel=Rsu-Topic">Fellatio meccanica<br> Autore: Rifiuti Solidi Urbani</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=k-hH_7BH9Q0&ab_channel=Rsu-Topic">Fellatio meccanica<br> Autore:<br> Rifiuti Solidi Urbani</a>
             </div>
           </div> 
          </div>
@@ -87,7 +118,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jKZ_t3oaI1U&ab_channel=Frei.Wild">Hab keine Angst<br> Autore: Frei.Wild</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jKZ_t3oaI1U&ab_channel=Frei.Wild">Hab keine Angst<br> Autore:<br> Frei.Wild</a>
             </div>
           </div> 
          </div>
@@ -95,7 +126,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=cGlx2w2DCVM&ab_channel=WarnerMusicItaly">Il sole dentro<br> Autore: Anansi</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=cGlx2w2DCVM&ab_channel=WarnerMusicItaly">Il sole dentro<br> Autore:<br> Anansi</a>
             </div>
           </div> 
          </div>
@@ -111,7 +142,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=uhtKKq4iFpY&ab_channel=bastardsonsVEVO">L'Amor Carnale<br> Autore: The Bastard Sons Of Dioniso</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=uhtKKq4iFpY&ab_channel=bastardsonsVEVO">L'Amor Carnale<br> Autore:<br> The Bastard Sons Of Dioniso</a>
             </div>
           </div> 
          </div>
@@ -119,7 +150,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=0BnyH7tLu8k&ab_channel=musicatrentina">Musica Folk Trentina<br> Autore: I Beatrich</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=0BnyH7tLu8k&ab_channel=musicatrentina">Musica Folk Trentina<br> Autore:<br> I Beatrich</a>
             </div>
           </div> 
          </div>
@@ -127,7 +158,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=TLOVBFpq5Hg&ab_channel=FOLKMUSICWORLD">Na volta gh’era<br> Autore: Musica dal Trentino</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=TLOVBFpq5Hg&ab_channel=FOLKMUSICWORLD">Na volta gh’era<br> Autore:<br> Musica dal Trentino</a>
             </div>
           </div> 
          </div>
@@ -135,7 +166,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=rP39CucYxMs&ab_channel=DanieleGroff%28Video%29">Sei un miracolo<br> Autore: Daniele Groff</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=rP39CucYxMs&ab_channel=DanieleGroff%28Video%29">Sei un miracolo<br> Autore:<br> Daniele Groff</a>
             </div>
           </div> 
          </div>
@@ -143,7 +174,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=PE1lzqJCeJ0&ab_channel=PhilOakeyVEVO">Together in Electric Dreams<br> Autore: Giorgio Moroder, Philip Oakey</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=PE1lzqJCeJ0&ab_channel=PhilOakeyVEVO">Together in Electric Dreams<br> Autore:<br> Giorgio Moroder, Philip Oakey</a>
             </div>
           </div> 
          </div>
@@ -151,7 +182,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=SYkUchwMid4&ab_channel=Graziano-Topic">Trapani, Marsala<br> Autore: Graziano</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=SYkUchwMid4&ab_channel=Graziano-Topic">Trapani, Marsala<br> Autore:<br> Graziano</a>
             </div>
           </div> 
          </div>
@@ -159,7 +190,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=e3rUMtfmq68&ab_channel=SkannersTV">Under the grieve<br> Autore: Skanners</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=e3rUMtfmq68&ab_channel=SkannersTV">Under the grieve<br> Autore:<br> Skanners</a>
             </div>
           </div> 
          </div>

@@ -41,13 +41,44 @@
             <li class="breadcrumb-item">Veneto</li>
           </ol>
       </nav>
-      <h1>VENETO</h1> 
+      <h1>VENETO</h1>
+      <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI--> 
       <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
           <div id="canzone" class="col-sm-4 col-md-2">
             <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
                 <div class="card-body">
-                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=6XLEh9AtQuw&ab_channel=GianniMazzetto">Canzone dialetto veneto<br> Autore: Alessio Giuricin </a></a>
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=6XLEh9AtQuw&ab_channel=GianniMazzetto">Canzone dialetto veneto<br> Autore:<br>Alessio Giuricin </a></a>
             </div>
           </div>  
         </div> 
@@ -63,7 +94,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=aPM5dCTBq4Q&ab_channel=VascoBrondi">Chakra<br> Autore: Vasco Brondi</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=aPM5dCTBq4Q&ab_channel=VascoBrondi">Chakra<br> Autore:<br> Vasco Brondi</a>
             </div>
           </div> 
          </div>
@@ -71,7 +102,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=u5hhyR473eE&ab_channel=WarnerMusicItaly">Cieli immensi<br> Autore: Patty Pravo</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=u5hhyR473eE&ab_channel=WarnerMusicItaly">Cieli immensi<br> Autore:<br> Patty Pravo</a>
             </div>
           </div> 
          </div>
@@ -87,7 +118,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8YOM_ypbNzc&ab_channel=Jalisse-Topic">Fiumi di parole<br> Autore: Jalisse</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8YOM_ypbNzc&ab_channel=Jalisse-Topic">Fiumi di parole<br> Autore:<br> Jalisse</a>
             </div>
           </div> 
          </div>
@@ -95,7 +126,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=zuEqfPKtnu4&ab_channel=IvanaSpagna-Topic">Il cerchio della vita<br> Autore: Ivana Spagna</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=zuEqfPKtnu4&ab_channel=IvanaSpagna-Topic">Il cerchio della vita<br> Autore:<br> Ivana Spagna</a>
             </div>
           </div> 
          </div>
@@ -103,7 +134,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=aQt2MYnVeGA&ab_channel=sonohraVEVO">L'amore<br> Autore: Sonohra</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=aQt2MYnVeGA&ab_channel=sonohraVEVO">L'amore<br> Autore:<br> Sonohra</a>
             </div>
           </div> 
          </div>
@@ -111,7 +142,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=rMTfM28wAf8&ab_channel=FrancescaMVEVO">L'amore esiste<br> Autore: Francesca Michielin</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=rMTfM28wAf8&ab_channel=FrancescaMVEVO">L'amore esiste<br> Autore:<br> Francesca Michielin</a>
             </div>
           </div> 
          </div>
@@ -119,7 +150,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8RwFEcQ36Z4&ab_channel=sangiovanniVEVO">MALIBU<br> Autore: Sangiovanni</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8RwFEcQ36Z4&ab_channel=sangiovanniVEVO">MALIBU<br> Autore:<br> Sangiovanni</a>
             </div>
           </div> 
          </div>
@@ -127,7 +158,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=z-T-PMATvsQ&ab_channel=IlVenetoImbruttito">Me compare Giacometo<br> Autore: Canzoni popolari venete</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=z-T-PMATvsQ&ab_channel=IlVenetoImbruttito">Me compare Giacometo<br> Autore:<br> Canzoni popolari venete</a>
             </div>
           </div> 
          </div>
@@ -135,7 +166,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=bKmNdIStFLA&ab_channel=MadameVEVO">Nuda<br> Autore: Madame, Ernia</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=bKmNdIStFLA&ab_channel=MadameVEVO">Nuda<br> Autore:<br> Madame, Ernia</a>
             </div>
           </div> 
          </div>
@@ -143,7 +174,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=OlamxsQhlaQ&ab_channel=SirOliverSkardy">Papa nero<br> Autore: Pitura freska</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=OlamxsQhlaQ&ab_channel=SirOliverSkardy">Papa nero<br> Autore:<br> Pitura freska</a>
             </div>
           </div> 
          </div>
@@ -151,7 +182,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=O5JZ8kfbZ0A&ab_channel=NitroOfficialVEVO">Pleasantville<br> Autore: Nitro</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=O5JZ8kfbZ0A&ab_channel=NitroOfficialVEVO">Pleasantville<br> Autore:<br> Nitro</a>
             </div>
           </div> 
          </div>
@@ -159,7 +190,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=046bAITySP4&ab_channel=FOLKMUSICWORLD">Polenta a baccalà<br> Autore: Canto popolare veneto</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=046bAITySP4&ab_channel=FOLKMUSICWORLD">Polenta a baccalà<br> Autore:<br> Canto popolare veneto</a>
             </div>
           </div> 
          </div>
@@ -167,7 +198,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=NqAOGduIFbg&ab_channel=Prueb270891">Storm<br> Autore: Antonio Vivaldi</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=NqAOGduIFbg&ab_channel=Prueb270891">Storm<br> Autore:<br> Antonio Vivaldi</a>
             </div>
           </div> 
          </div>
@@ -183,7 +214,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tU3vIfluHaI&ab_channel=MamboLoscoVEVO">Twerk<br> Autore: Mambolosco, Boro Boro</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tU3vIfluHaI&ab_channel=MamboLoscoVEVO">Twerk<br> Autore:<br> Mambolosco, Boro Boro</a>
             </div>
           </div> 
          </div>

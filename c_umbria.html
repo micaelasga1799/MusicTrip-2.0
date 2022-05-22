@@ -41,13 +41,44 @@
             <li class="breadcrumb-item">Umbria</li>
           </ol>
       </nav>
-      <h1>UMBRIA</h1> 
+      <h1>UMBRIA</h1>
+      <!--BOTTONE AGGIUNGI-->
+        <button id="aggiungi" type="button" class="btn btn-dark" data-toggle="modal" data-target="#Modal1">+ AGGIUNGI</button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">AGGIUNGI UNA CANZONE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">NOME:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                       </div>
+                       <div class="mb-3">
+                          <label for="message-text" class="col-form-label">COGNOME</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-warning">Invia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE BOTTONE AGGIUNGI--> 
       <div id="canzoni" class="row row-cols-sm-4 row-cols-md-2 morepadding">
           <div id="canzone" class="col-sm-4 col-md-2">
             <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
                 <div class="card-body">
-                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8OnlpuHmxdY&ab_channel=LucianoPavarotti-Topic">Addio, sogni di gloria<br> Autore: Innocenzi</a></a>
+                  <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=8OnlpuHmxdY&ab_channel=LucianoPavarotti-Topic">Addio, sogni di gloria<br> Autore:<br> Innocenzi</a></a>
             </div>
           </div>  
         </div> 
@@ -55,7 +86,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=HeLOs_SqrE4&ab_channel=Battl3Rag3R">Beyond recall<br> Autore: Warhead</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=HeLOs_SqrE4&ab_channel=Battl3Rag3R">Beyond recall<br> Autore:<br> Warhead</a>
             </div>
           </div> 
         </div> 
@@ -71,7 +102,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=YQ6sn7JUJLI&ab_channel=EmaP">Dall'Umbria con...folclore<br> Autore: Arrizzete Marì</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=YQ6sn7JUJLI&ab_channel=EmaP">Dall'Umbria con...folclore<br> Autore:<br> Arrizzete Marì</a>
             </div>
           </div> 
          </div>
@@ -87,7 +118,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=2Rnb5VcC2yA&ab_channel=Woodworm">Non potrei mai<br> Autore: Fast animals and slow kids</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=2Rnb5VcC2yA&ab_channel=Woodworm">Non potrei mai<br> Autore:<br> Fast animals and slow kids</a>
             </div>
           </div> 
          </div>
@@ -95,7 +126,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tufbM2TJoBs&ab_channel=FriarAlessandroVEVO">Panis angelicus<br> Autore: Alessandro Friar</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=tufbM2TJoBs&ab_channel=FriarAlessandroVEVO">Panis angelicus<br> Autore:<br> Alessandro Friar</a>
             </div>
           </div> 
          </div>
@@ -103,7 +134,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=X8f_NSqiVuA&ab_channel=SaraPizzoni">Primo tempo<br> Autore: Sara Pizzoni</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=X8f_NSqiVuA&ab_channel=SaraPizzoni">Primo tempo<br> Autore:<br> Sara Pizzoni</a>
             </div>
           </div> 
          </div>
@@ -119,7 +150,7 @@
           <div class="card">
               <img src="images/vinile.jpg" class="card-img-top" alt="vinile">
               <div class="card-body">
-                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jJxWprsnkZY&ab_channel=RiservaSonorarecords">Una meraviglia<br> Autore: Alessandra Becelli</a>
+                <a class="nome" class="card-title" href="https://www.youtube.com/watch?v=jJxWprsnkZY&ab_channel=RiservaSonorarecords">Una meraviglia<br> Autore:<br> Alessandra Becelli</a>
             </div>
           </div> 
          </div>
